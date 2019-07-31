@@ -1,7 +1,7 @@
 # The Chicago AWS Architecting for ML - Ship Detection
 
+[![alt text](/ships_summary_page.jpeg)]
 
-[!(/ships_summary_page.jpeg)]
 
 ## Overview
 
