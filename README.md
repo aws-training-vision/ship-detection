@@ -1,4 +1,9 @@
-## Ship Detection Project
+# The Chicago AWS Architecting for ML - Ship Detection
+
+![Alt](/ships_summary_page.jpeg)]
+
+
+## Overview
 
 In this project our team will locate ships in images, and put an aligned bounding box segment around them. 
 
@@ -15,6 +20,13 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 ## Modeling Strategy
 
+* Split the dataset into Train and Test datasets.
+
+* Use of openCV library to preprocess and augment the images.
+
+* Try different object detection approaches in AWS SageMaker
+
 
 ## End Goal
 
+Locate ships in images and put an aligned bounding box segment around them. 
