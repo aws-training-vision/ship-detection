@@ -1,4 +1,7 @@
-## Ship Detection Project
+
+![Alt](/ships_summary_page.jpg "The Chicago AWS Architecting for ML - Ship Detection Project")
+
+## Overview
 
 In this project our team will locate ships in images, and put an aligned bounding box segment around them. 
 
@@ -15,6 +18,13 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 ## Modeling Strategy
 
+Split the dataset into Train and Test datasets.
+
+Use of openCV library to preprocess and augment the images.
+
+
+
 
 ## End Goal
 
+Locate ships in images and put an aligned bounding box segment around them. 
