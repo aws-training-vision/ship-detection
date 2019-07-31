@@ -1,6 +1,6 @@
 # The Chicago AWS Architecting for ML - Ship Detection Project
 
-[(/ships_summary_page.jpeg)]
+[![alt text](/ships_summary_page.jpeg)]
 
 ## Overview
 
@@ -23,7 +23,7 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 * Use of openCV library to preprocess and augment the images.
 
-
+* Try different object detection approaches in AWS SageMaker
 
 
 ## End Goal
