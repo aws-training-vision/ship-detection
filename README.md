@@ -9,6 +9,7 @@ In this project our team will locate ships in images, and put an aligned boundin
 
 Here’s the backstory: Shipping traffic is growing fast. More ships increase the chances of infractions at sea like environmentally devastating ship accidents, piracy, illegal fishing, drug trafficking, and illegal cargo movement. This has compelled many organizations, from environmental protection agencies to insurance companies and national government authorities, to have a closer watch over the open seas.
 
+
 ## Datasets
 
 The dataset is based on the Kaggle competion data available at https://www.kaggle.com/c/airbus-ship-detection/data
@@ -18,13 +19,10 @@ For this metric, object segments cannot overlap. There were a small percentage o
 
 The train_ship_segmentations.csv file provides the ground truth (in run-length encoding format) for the training images. The sample_submission files contains the images in the test images.
 
+
 ## Modeling Strategy
 
-1. Split the dataset into Train and Test datasets.
-
-2. Use of openCV library to preprocess and augment the images.
-
-3. Try different object detection approaches in AWS SageMaker and figure out ways to address the presence of:
+Use of openCV library to preprocess and augment the images and try different object detection approaches in AWS SageMaker and figure out ways to address the presence of:
 * clouds near ships
 * ships under haze or within clouds
 * large wake behind the ship due to its movement
@@ -33,10 +31,6 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 * confusion with waves caused by wind
 * partially visible ships
 * individual ships discrimination when two or more ships are coupled together or when other objects are around, e.g. buoys, barges, wind turbines, etc.
-
-
-
-
 
 
 ## End Goal
