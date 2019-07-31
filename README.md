@@ -22,7 +22,7 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 ## Modeling Strategy
 
-Use of openCV library to preprocess and augment the images and try different object detection approaches in AWS SageMaker and figure out ways to address the presence of:
+Use of openCV library to preprocess and augment the images and try different object detection approaches in AWS SageMaker in order to figure out ways to address the presence of:
 * clouds near ships
 * ships under haze or within clouds
 * large wake behind the ship due to its movement
