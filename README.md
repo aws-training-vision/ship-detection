@@ -1,5 +1,6 @@
+# The Chicago AWS Architecting for ML - Ship Detection Project
 
-[![The Chicago AWS Architecting for ML - Ship Detection Project](/ships_summary_page.jpeg)]
+[(/ships_summary_page.jpeg)]
 
 ## Overview
 
@@ -18,9 +19,9 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 ## Modeling Strategy
 
-Split the dataset into Train and Test datasets.
+* Split the dataset into Train and Test datasets.
 
-Use of openCV library to preprocess and augment the images.
+* Use of openCV library to preprocess and augment the images.
 
 
 
