@@ -1,5 +1,5 @@
 
-[![The Chicago AWS Architecting for ML - Ship Detection Project](/wships_summary_page.jpeg)]
+[![The Chicago AWS Architecting for ML - Ship Detection Project](/ships_summary_page.jpeg)]
 
 ## Overview
 
