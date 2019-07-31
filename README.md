@@ -20,11 +20,23 @@ The train_ship_segmentations.csv file provides the ground truth (in run-length e
 
 ## Modeling Strategy
 
-* Split the dataset into Train and Test datasets.
+1. Split the dataset into Train and Test datasets.
 
-* Use of openCV library to preprocess and augment the images.
+2. Use of openCV library to preprocess and augment the images.
 
-* Try different object detection approaches in AWS SageMaker
+3. Try different object detection approaches in AWS SageMaker and figure out ways to address the presence of:
+* clouds near ships
+* ships under haze or within clouds
+* large wake behind the ship due to its movement
+* individual ships in marinas
+* sun reflection on water aroud the ship
+* confusion with waves caused by wind
+* partially visible ships
+* individual ships discrimination when two or more ships are coupled together or when other objects are around, e.g. buoys, barges, wind turbines, etc.
+
+
+
+
 
 
 ## End Goal
