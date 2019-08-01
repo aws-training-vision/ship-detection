@@ -4,8 +4,8 @@ data pre-processing:
 
 training:
   -load data from s3
-  -load model x???
-  -train model x??? with training data subset
+  -load model resnet 50
+  -train model resnet 50 with training data subset
   -validate against validation data subset
 
 test:
