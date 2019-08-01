@@ -1,0 +1,12 @@
+the plan:
+data pre-processing:
+  -???
+
+training:
+  -load data from s3
+  -load model resnet 50
+  -train model resnet 50 with training data subset
+  -validate against validation data subset
+
+test:
+  -run against unlabeled test data.
