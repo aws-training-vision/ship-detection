@@ -1,6 +1,7 @@
 the plan:
 data pre-processing:
-  -???
+  -load data from s3 (raw location) in kaggle format (raw)
+  -transform data from kaggle format to aws "Image Format" https://docs.aws.amazon.com/sagemaker/latest/dg/object-detection.html
 
 training:
   -load data from s3
